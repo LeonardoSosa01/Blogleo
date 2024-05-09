@@ -1,0 +1,59 @@
+/*Login*/
+.login {
+  width: 400px;
+  background-color: white;
+  margin: 100px auto;
+  padding: 30px;
+}
+
+.login h2 {
+  padding: 20px 0;
+}
+
+.login form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.login form label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 50px;
+  background-color: #3c3589;
+  color: white;
+  margin-right: 10px;
+  padding: 0 10px;
+}
+
+.login form input {
+  width: 220px;
+  height: 30px;
+  border: 1px solid #dee0e4;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+}
+
+.login form .btnLogin {
+  width: 90%;
+  padding: 15px;
+  text-align: center;
+  background-color: #3c3589;
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+.linkContainer {
+  text-align: center;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.linkContainer a {
+  font-size: 15px;
+}
